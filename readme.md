@@ -48,3 +48,10 @@ npm run dev (modo desarrollador) npm start(modo produccion)
 ##CAPAS DE SOPORTE:
 -MIDDLEWARE : Capa intermedia entre el cliente y la API(ejemplo validar toquen, validar IP por CORS)
 -HELPERS : Ayudas, ayudantes, como clases o funciones reusables del sistema por ejemplo un sistema de errores.
+##CONFIGURACION DE VARIABLES DE ENTORNO/GLOBALES
+sirven para mejorar la confidencialidad,mejor mentenibilidad
+en node.js: variables .env
+instalar el paquete dotenv y configurarlo (nota: la ultima version de node.js ya lo implementa nativo)
+-npm i dotenv
+-Crear archivo .env en la raiz del proyecto
+-Ver el ejemplo de archivo .env (recuerde crear estilo constantes)

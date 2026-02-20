@@ -2,11 +2,10 @@
 
 //!importamos la conexion a la base de datos
 
-import { cnx } from "./bdatos.js";
+import { db } from "./bdatos.js";
 
 //!activar el manejo de promesas(asincronica)
 
-const db = cnx.promise();
 
 //!creamos el modulo: usando el concepto orientado a objetos
 //!la clase modelo correspondiente a ciudadano
